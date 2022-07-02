@@ -1,0 +1,13 @@
+name = "HelloJulia"
+uuid = "faf30b6d-d811-48ec-864a-5865449f6dee"
+authors = ["SnO2WMaN <me@sno2wman.net>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
